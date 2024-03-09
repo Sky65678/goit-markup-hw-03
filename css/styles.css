@@ -21,6 +21,9 @@ img {
 
 ul {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
 }
 
 a {
@@ -49,7 +52,7 @@ span {
 }
 
 .container {
-  width: 1440px;
+  width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -132,6 +135,8 @@ span {
 
 .header-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* ===============================================
@@ -194,6 +199,7 @@ span {
 .features-list {
   display: flex;
   gap: 24px;
+  justify-content: space-between;
 }
 .features-subtitle {
   font-weight: 500;
@@ -245,6 +251,7 @@ span {
   width: calc((100% - 3 * 24) / 4);
 }
 .team-image {
+  margin-bottom: 32px;
 }
 .team-subtitle {
   font-weight: 500;
@@ -253,7 +260,7 @@ span {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .team-item-text {
   font-size: 16px;
@@ -262,7 +269,7 @@ span {
   text-align: center;
   color: #434455;
   background-color: #ffffff;
-  margin-top: 8px;
+  margin-bottom: 32px;
 }
 
 /* ===============================================
