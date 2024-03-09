@@ -62,6 +62,9 @@ span {
 
 =======================HEADER==================== */
 
+.main-header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-logo {
   font-weight: 700;
   font-size: 18px;
@@ -130,7 +133,8 @@ span {
 
 .header-contact-list {
   display: flex;
-  gap: 14px;
+  gap: 40px;
+  padding-left: 0;
 }
 
 .header-container {
