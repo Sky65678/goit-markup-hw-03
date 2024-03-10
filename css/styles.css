@@ -217,7 +217,6 @@ span {
 .features-list {
   display: flex;
   gap: 24px;
-  justify-content: space-between;
 }
 .features-subtitle {
   font-weight: 500;
